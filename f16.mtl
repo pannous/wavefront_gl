@@ -1,0 +1,21 @@
+# Blender MTL File: 'f16.blend'
+# Material Count: 1
+
+# Ka: specifies ambient color
+# Kd: specifies diffuse color
+# Ks: specifies specular color
+# Ns: defines the focus of specular highlights in the material. range from 0 to 1000
+# Ni: defines the optical density (aka index of refraction) in the current material. The values can range from 0.001 to 10. A value of 1.0 means that light does not bend as it passes through an object.
+# d: specifies a factor for dissolve
+# illum: specifies an illumination model
+
+newmtl Material
+Ns 96.
+Ka 1. 1. 1.
+Kd 0.64 0.64 0.64
+Ks 0.50 0.50 0.50
+Ke 0. 0. 0.
+Ni 1.
+d 1.
+illum 2
+map_Kd f16-texture.bmp

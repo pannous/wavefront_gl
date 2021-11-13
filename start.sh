@@ -1,0 +1,1 @@
+open http://0:4507 && file_server
